@@ -57,7 +57,7 @@ Key operations performed:
 ---
 
 ## 📊 Methodology:
-- Used techniques (N-gram, NER, Logistic Regression, Multilayer Perceptron)
+- Used techniques (Nltk,N-gram, NER, Logistic Regression, Multilayer Perceptron)
 - Main libraries (Pandas,Sklearn,Spacy,Matplotlib,Seaborn,Gensim)
 
 ---
