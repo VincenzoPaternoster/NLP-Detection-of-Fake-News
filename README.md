@@ -21,7 +21,7 @@ E-commerce-sales-analysis/
 ## 🎯 Project objectives
 
 
-##### *1. The main objective of the project is to develop a machine learning model capable of accurately identifying fake news.
+##### 1. The main objective of the project is to develop a machine learning model capable of accurately identifying fake news.
 ##### The secondary objectives will be:
 ##### 2. Data analysis
       a) Is fake news more common in certain categories?
@@ -32,7 +32,7 @@ E-commerce-sales-analysis/
 ##### 4. Model evaluation
     a) What types of performance metrics should be used to evaluate the model's efficiency?
 
-##### Exporting the model to pickle*
+##### Exporting the model to pickle
 ---
 
 ## 🗂️ Dataset
