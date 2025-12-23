@@ -63,29 +63,22 @@ Key operations performed:
 ---
 
 ## 🔍 Key results
-- Insight 1: The categories of news with the most fake news concern ‘News’, “Politics” and ‘Left-news’ [Box chart](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/MostFakeCategories.png)
-- Insight 2: The topics with the highest number of fake news stories are ‘Donald Trump’, ‘Hilary Clinton’, ‘White House’ and ‘United States’, in line with the period (from 2015 to 2018) in which the news was collected, i.e. pre, during and post US elections [Box chart](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/MostUsedTopics.png) and [Word cloud](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/WordCloud.png)
-- Insight 3: News headlines have recognisable and repetitive patterns that include the use of names of people (PERSON), organisations (ORG) and nationalities/political groups (NORP). In fact, the main elements contained in fake news headlines are “Donald Trump”, “President Trump”, “Hilary Clinton”, “White House” and “Fox News” [Box chart](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/MostFrequentBi.png) and [Box chart with NER entities](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/NER_MostHead.png)
-- Insight 4: Finally, two models (Logistic regression and Multi Perceptron, MLP) were trained and tested with the aim of creating a browser plug-in capable of filtering fake news. The analyses and results showed that the MLP model was better able to predict fake news than the Logistic regression model [Comparison between models](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Training%20model/CombinedConfusion.png)
+- **Insight 1**: The categories of news with the most fake news concern ‘News’, “Politics” and ‘Left-news’ [Box chart](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/MostFakeCategories.png)
+- **Insight 2**: The topics with the highest number of fake news stories are ‘Donald Trump’, ‘Hilary Clinton’, ‘White House’ and ‘United States’, in line with the period (from 2015 to 2018) in which the news was collected, i.e. pre, during and post US elections [Box chart](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/MostUsedTopics.png) and [Word cloud](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/WordCloud.png)
+- **Insight 3**: News headlines have recognisable and repetitive patterns that include the use of names of people (PERSON), organisations (ORG) and nationalities/political groups (NORP). In fact, the main elements contained in fake news headlines are “Donald Trump”, “President Trump”, “Hilary Clinton”, “White House” and “Fox News” [Box chart](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/MostFrequentBi.png) and [Box chart with NER entities](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Insights%20on%20fake%20news/NER_MostHead.png)
+- **Insight 4**: Finally, two models (Logistic regression and Multi Perceptron, MLP) were trained and tested with the aim of creating a browser plug-in capable of filtering fake news. The analyses and results showed that the MLP model was better able to predict fake news than the Logistic regression model [Comparison between models](https://github.com/VincenzoPaternoster/NLP-Detection-of-Fake-News/blob/main/images/Training%20model/CombinedConfusion.png)
 
 
 ---
 
 ## 🧠 Conclusions
-- This project allowed me to manage a complete end-to-end data analysis workflow, from data preparation to modelling and visualization.
-  I applied different analytical techniques — including RFM segmentation, Yeo–Johnson transformation and K-Means clustering — and learned
-  how these methods can be combined to extract actionable insights about customer behaviour.
-
-- The project also help me to improve my ability to structure work efficiently and select the appropriate tools (SQL, Python, Power BI, Tableau) based on the business questions.
-  Overall, this experience gave me a base for future customer analytics and segmentation projects.
+In this project I learned how to use spacy, gensim and sklearn in order to execute operations of natural language processing
+mixed with machine learning tecniques such as logistic regression and multilayer perceptron (MLP).
 ---
 
 ## 🛠️ Tools
-- Python (pandas, numpy, matplotlib, seaborn)
+- Python (pandas,matplotlib,seaborn,sklearn,gensim)
 - Google Colab
-- SQL Server Management Studio
-- PowerBI
-- Tableau
 - Obsidian
 
 ---
