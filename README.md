@@ -72,7 +72,7 @@ Key operations performed:
 ---
 
 ## 🧠 Conclusions
-In this project I learned how to use spacy, gensim and sklearn in order to execute operations of natural language processing
+##### In this project I learned how to use spacy, gensim and sklearn in order to execute operations of natural language processing
 mixed with machine learning tecniques such as logistic regression and multilayer perceptron (MLP).
 ---
 
