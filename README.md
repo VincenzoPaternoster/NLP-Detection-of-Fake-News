@@ -1,7 +1,6 @@
 # 📌 NLP-Detection-of-Fake-News
 The aim of the project is to develop a machine learning model that can accurately detect fake news. The model will be integrated into the Chrome plug-in and will provide users with real-time feedback on the veracity of the news they are reading.
-
-*NOTE: These analyses are for educational purposes only. It is clear that the proposed analyses are too limited on a specific data set that only contains news on certain topics*
+##### *NOTE: These analyses are for educational purposes only. It is clear that the proposed analyses are too limited on a specific data set that only contains news on certain topics*
 ---
 
 ## 📂 Repository Structure
@@ -21,7 +20,8 @@ E-commerce-sales-analysis/
 
 ## 🎯 Project objectives
 
-*1. The main objective of the project is to develop a machine learning model capable of accurately identifying fake news.
+
+##### *1. The main objective of the project is to develop a machine learning model capable of accurately identifying fake news.
 The secondary objectives will be:
 2. Data analysis
 a) Is fake news more common in certain categories?
