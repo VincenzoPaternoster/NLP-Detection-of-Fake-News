@@ -22,16 +22,17 @@ E-commerce-sales-analysis/
 
 
 ##### *1. The main objective of the project is to develop a machine learning model capable of accurately identifying fake news.
-The secondary objectives will be:
-2. Data analysis
-a) Is fake news more common in certain categories?
-b) Are there topics more commonly associated with fake news?
-c) Do fake news headlines follow recurring patterns?
-3. Training model
+##### The secondary objectives will be:
+##### 2. Data analysis
+      a) Is fake news more common in certain categories?
+      b) Are there topics more commonly associated with fake news?
+      c) Do fake news headlines follow recurring patterns?
+##### 3. Training model
     a) Which combination of NLP and machine learning techniques leads to the best model?
-4. Model evaluation
+##### 4. Model evaluation
     a) What types of performance metrics should be used to evaluate the model's efficiency?
-  Exporting the model to pickle*
+
+##### Exporting the model to pickle*
 ---
 
 ## 🗂️ Dataset
