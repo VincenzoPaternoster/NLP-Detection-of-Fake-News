@@ -32,7 +32,7 @@ E-commerce-sales-analysis/
 ##### 4. Model evaluation
     a) What types of performance metrics should be used to evaluate the model's efficiency?
 
-##### Exporting the model to pickle
+##### 5. Exporting the model to pickle
 ---
 
 ## 🗂️ Dataset
