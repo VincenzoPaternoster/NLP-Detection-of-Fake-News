@@ -8,7 +8,8 @@ NOTE: These analyses are for educational purposes only. It is clear that the pro
 ```
 E-commerce-sales-analysis/
 │── data/
-      ├── Datasets
+      ├── Fake
+      ├── True
 │── images/
       ├── Insights on fake news
       ├── Training model
