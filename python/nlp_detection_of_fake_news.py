@@ -1,56 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 # Detection of Fake News Project
-
----
-#### Objectives
-
-The main objective of the project is to develop a machine learning model capable of accurately identifying fake news.
-
-The secondary objectives will be:
-1. Data analysis
-  
-    a) Is fake news more common in certain categories?
-  
-    b) Are there topics more commonly associated with fake news?
-  
-    c) Do fake news headlines follow recurring patterns?
-
-2. Training model
-
-    a) Which combination of NLP and machine learning techniques leads to the best model?
-
-3. Model evaluation
-    
-    a) What types of performance metrics should be used to evaluate the model's efficiency?
-
-4. Exporting the model to pickle
----
-#### Index
-```
-Library
-
-0. Upload datasets
-
-1. Exploratory data analysis (EDA)
-  
-    1.1 Is fake news more common in certain categories?
-  
-    1.2 Are there topics more commonly associated with fake news?
-  
-    1.3 Do fake news headlines follow recurring patterns?
-
-2. Train and evaluate model
-    
-    2.1 Data preprocessing
-
-    2.2 Logistic regression model
-
-    2.3 Multilayer Perceptron (MLP)
-
-3. Export model to pickle format
-
-Conclusion
 ```
 
 ### Library
@@ -276,17 +226,8 @@ plt.axis("off")
 save("WordCloud")
 plt.show()
 
-"""##### **Notes on the most frequent topics of fake news**
-
-The bar chart and word cloud show that the topic ‘Donald Trump’ is the most frequent in fake news, followed by ‘Hillary Clinton,’ ‘White House,’ and ‘United States.’
-
-#### 1.3 Do fake news headlines follow recurring patterns?
-"""
-
 ## Create a list/series with only the news headlines
 only_title=fake["title"]
-
-"""##### N-Gram solution"""
 
 ## N-gram solution
 
@@ -317,8 +258,6 @@ ax.set_xticks(range(len(count.keys())),
 plt.title("The ten most frequent bigram in fake news headlines",fontdict=fontit)
 save("MostFrequentBi")
 plt.show()
-
-"""##### NER solution"""
 
 ## Use the NER procedure to identify entity patterns in news headlines
 
@@ -352,16 +291,7 @@ plt.title("The ten most frequent entities in fake news headlines",fontdict=fonti
 save("NER_MostHead")
 plt.show()
 
-"""##### **Note on recurring patterns in fake news headlines**
-
-- Barchart shows that recurring bigrams in fake news headlines are associated with the names of political figures, particularly Donald Trump, his enemies and his supporters
-
-- NER entity results confirm a recurring pattern based on the use of person names, organisations, national origins and countries in fake news associated with Donald Trump
-
-### 2. Train Model
-
-*I trained two models, Logistic Regression and MLP (Multilayer Perceptron), because I wanted to see if there were any differences in performance between them.*
-
+"""
 ###### 2.1 Data preprocessing
 """
 
@@ -577,33 +507,9 @@ plt.tight_layout(pad=3.0)
 save("CombinedConfusion")
 plt.show()
 
-"""##### **Note on two models**
-
-The classification reports for the two models (logistic regression and MPL) show similar values in terms of accuracy, recall, and F1 score, but looking at the MPL confusion matrix values, we can see a slightly better performance for the MLP training and testing model (as shown in the graphs above) compared to logistic regression.
-For this reason, I decided to use the MLP model as the basis for the fake news plug-in and export it in pickle format for the future steps.
-
-### 3) Export model to pickle format
-"""
-
 ## The idea of exporting the model in pickle format stems from the theoretical need to implement this model
 ## in a plug-in for the Chrome browser and thus share it with future professionals who will create the plug-in.
 
 with open ("mlp_fakenews.pkl","wb") as file:
   pickle.dump(mlp, file)
 
-"""### Conclusion
-
-1. In conclusion, the analysis revealed that:
-
-  - The categories of news with the most fake news concern ‘News’, “Politics” and ‘Left-news’.
-
-  - The topics with the highest number of fake news stories are ‘Donald Trump’, ‘Hilary Clinton’, ‘White House’ and ‘United States’, in line with the period (from 2015 to 2018) in which the news was collected, i.e. pre, during and post US elections.
-
-  - News headlines have recognisable and repetitive patterns that include the use of names of people (PERSON), organisations (ORG) and nationalities/political groups (NORP). In fact, the main elements contained in fake news headlines are “Donald Trump”, “President Trump”, “Hilary Clinton”, “White House” and “Fox News”.
-
-
-2. Finally, two models (Logistic regression and Multi Perceptron, MLP) were trained and tested with the aim of creating a browser plug-in capable of filtering fake news. The analyses and results showed that the MLP model was better able to predict fake news than the Logistic regression model.
-
----
-**NOTE**: These analyses are for educational purposes only. It is clear that the proposed analyses are too limited on a specific data set that only contains news on certain topics.
-"""
