@@ -5,7 +5,7 @@ The aim of the project is to develop a machine learning model that can accuratel
 
 ## 📂 Repository Structure
 ```
-E-commerce-sales-analysis/
+NLP Detection of Fake News/
 │── data/
       ├── Fake
       ├── True
